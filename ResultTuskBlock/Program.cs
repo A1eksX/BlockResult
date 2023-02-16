@@ -64,4 +64,4 @@ int newSizeArray = NewSizeArray(array);        // переменная - дли�
 string[] maxThirdElem = MaxThirdElem(array, newSizeArray);
 Console.WriteLine();
 Console.Write("Массив, элементы которых меньше трёх символов ");
-PrintArrayDouble(maxThirdElem);
+PrintArrayDouble(maxThirdElem);  
