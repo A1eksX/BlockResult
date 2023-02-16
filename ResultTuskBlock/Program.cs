@@ -20,7 +20,7 @@ int NewSizeArray(string[] massive)     //получаем длину новог�
     for (int i = 0; i < massive.Length; i++)
     {
         int a = massive[i].Length;
-        if (a <= 3) newSize++;
+        if (a < 4) newSize++;
     }
     return newSize;
 }
