@@ -46,7 +46,7 @@ string[] MaxThirdElem(string[] massive, int newSize)  // в новый масс�
     return newArray;
 }
 
-void PrintArrayDouble(string[] massive) // печатаем массив
+void PrintThirdElemArray(string[] massive) // печатаем массив
 {
     Console.Write("[ ");
     for (int i = 0; i < massive.Length; i++)
@@ -58,10 +58,10 @@ void PrintArrayDouble(string[] massive) // печатаем массив
 
 
 string[] array = Array(size);
-PrintArrayDouble(array);
+PrintThirdElemArray(array);
 int newSizeArray = NewSizeArray(array);        // переменная - длина нового массива
 
 string[] maxThirdElem = MaxThirdElem(array, newSizeArray);
 Console.WriteLine();
 Console.Write("Массив, элементы которых меньше трёх символов ");
-PrintArrayDouble(maxThirdElem);  
+PrintThirdElemArray(maxThirdElem);  
